@@ -24,7 +24,7 @@
 				print("<td>{$rows['sex']}</td>");
 				print("<td>{$rows['salary']}</td>");
 				print("<td>{$rows['time']}</td>");
-				print("<td><a href='update.php?id={$rows['id']}'>修改</a><a href='delete.php?id={$rows['id']}'>删除</a></td>");
+				print("<td><a href='update.php?id={$rows['id']}'>修改</a>/<a href='delete.php?id={$rows['id']}'>删除</a></td>");
 			print("</tr>");
 		}
 	echo("<table>");
